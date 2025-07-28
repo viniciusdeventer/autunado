@@ -77,7 +77,7 @@ nav .logoAutunado {
 .hero h1 {
     font-family: "Bitcount Prop Double", system-ui;
     font-size: 75px;
-    color: #0e9455;
+    color: #ffb32e;
 }
 
 .hero h3 {
@@ -129,8 +129,8 @@ aside a i {
 
 .estudio {
     padding-top: 20px;
-    margin-top: -45px;
-    height: 650px;
+    margin-top: -55px;
+    height: 750px;
     background-color: #003f5c;
     clip-path: ellipse(140% 100% at 50% 100%);
     padding: 10px;
@@ -283,12 +283,95 @@ aside a i {
 
 .sobre {
     background-color: #282828;
-    height: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    color: #fff; 
+    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+    padding-top: 50px;
+    margin-top: -45px;
+}
+
+.sobre h2 {
+    padding-top: 20px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Bitcount Prop Double", system-ui;
+}
+
+.sobre img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sobre-texto {
+    max-width: 600px;
+}
+
+.sobre p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
 .contato {
-    background-color: #f59f00;
-    height: 400px;
+    background-color: #003f5c;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    color: #fff;
+}
+
+.contato h2 {
+    font-family: "Bitcount Prop Double", system-ui;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contato input,
+.contato textarea {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contato textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contato button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e91e63;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contato button:hover {
+    background-color: #c2185b;
 }
 
 .agenda-container {
